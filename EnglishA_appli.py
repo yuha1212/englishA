@@ -5,7 +5,7 @@ from PIL import Image
 import io
 
 # 初期設定
-pdf_path = r"C:\Users\yuzu0\OneDrive\ドキュメント\python\英語A.pdf"
+pdf_path = "englisha.pdf"
 doc = fitz.open(pdf_path)
 valid_pages = [i for i in range(0, len(doc) - 1, 2)]  # 奇数インデックスページのみ
 
